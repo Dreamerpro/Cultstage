@@ -1,0 +1,265 @@
+/* BOOTSTRAP RESET*/
+.media-body{
+	padding: 8px;
+}
+.nav-pills>li>a {
+	border-radius: 0 !important;
+    color: #C0C0C0;
+}
+.nav-pills>li>a:hover{
+	color: #337ab7;
+}
+.media-left>small{
+	text-align: center;
+	display: block;
+	margin-top: 4px;
+}
+.media-body>.pull-right{
+	text-align: center;
+}
+strong{
+	  color: rgb(84, 84, 84);
+}
+
+.t1{
+	width: 20px;
+	display: inline-block;
+}
+.form-inline>.form-group{
+	vertical-align: top;
+}
+
+.page-header{
+	margin: 0;
+	box-shadow: 0 1px 4px #ccc;
+  background: #F4F4F4;
+  border-bottom: 1px solid #CDCDCD;
+}
+.logo{
+	display: inline-block;
+	margin: 20px 0 0 40px;
+	
+}
+.logo:hover{
+	text-decoration: none;
+}
+.logo>img{
+	width: 250px;
+}
+/*.logo>h1{
+  padding-left: 60px;
+  font-weight: 800;
+  color: orange;
+}*/
+.logo>h4{
+	/*padding-left: 64px;
+	*/  color: black;
+}
+.sign-in-form{
+ margin: 30px 40px 0 0;
+}
+.top-menu{
+	padding-top: 10px;
+	display: inline-block;
+}
+.top-menu>*{
+	width: auto;
+	margin: 15px 4px;
+	display: inline-block;
+}
+.top-menu>a{
+	border-right: 1px solid orange;
+	padding-right: 4px;
+	color: orange;
+}
+.top-menu>a:last-child{
+	border-right: none;
+}
+
+.search-box{
+	display: inline-block;
+	vertical-align: top;
+	margin: 18px 40px 0 0;
+}
+.search-box>.form-group>.btn{
+	border-radius: 12px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	  background-image: none;
+  background-color: #EFEFEF;
+}
+.search-box>.form-group>.form-control{
+	border-radius: 12px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	background-color: #FDFDFD;;
+}
+.container{
+	min-height: 80vh;
+}
+.jumbotron{
+	padding: 0;
+	margin:0;
+	background-color: #fff;
+}
+.jumbotron.profile{
+	height: 300px;
+	background:url(../image/profilebg.jpg);
+}
+/*.jumbotron>div{
+	height: 620px;
+}*/
+.profile-detail{
+	margin-top: 20px;
+}
+.profile-top-menu{
+	background-color: rgba(0,0,0,0.5);
+}
+
+.right-bar>.media>.media-left>a>.media-object{
+	width: 100px;
+}
+ul.right-bar>li{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ABABAB;
+}
+.geo{
+	margin: 20px 0;
+}
+.geo>select{
+	position: absolute;
+	z-index: 10;
+	margin-top: 20px;
+	margin-left: 80px;
+	width:280px;
+	padding: 4px;
+}
+.geo>select>option{
+	padding: 4px;
+}
+
+
+
+.signup-form{
+	display: block;
+	margin: 60px auto 0;
+	float: none;
+}
+
+.green-rect{
+	display: inline-block;
+	width: 500px;
+	height: 400px;
+	background-color:  rgba(123, 187, 85, 0.8);
+	margin: 125px calc(50% - 250px);
+}
+.black-rect{
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	background: url(../image/blackrect.png);
+	background-color:  rgba(0, 0, 0, 0.8);
+	margin: 75px 100px 0;
+
+}
+.row-c{
+	  position: absolute;
+  width: 500px;
+  font-size: x-large;
+  margin-top: 8px;
+  font-weight: 620;
+  color: white;
+}
+.row-c>div{
+	display: inline-block;
+	width: 50%;
+	padding-right: 60px;
+	text-align: right;
+	margin-top: calc(75px - 68px);
+}
+.row-c>div:first-child{
+	padding-left: 60px;
+	padding-right: 0;
+	text-align: left;
+}
+.col-50{
+	width: 50%;
+	vertical-align: top !important;
+}
+.col-50>input,.col-50>select{
+	width: 100% !important;
+}
+input{
+	margin-bottom: 15px;
+}
+.su-head{
+  font-weight: 700;
+  color: tomato;
+}
+.su-head>small{
+	font-size: 60%;
+	font-weight: bold;
+	/*color: rgb(129, 74, 48);*/
+}
+.social-plugin{
+	margin-top: 20px;
+	margin: 20px auto;
+	float: none;
+}
+.fb,.fb:hover{
+	background: #3b5998;
+	color: #fff;
+}
+.fb>.fa,.g>.fa{
+	font-size: 1.4em;
+	padding-left: 10px;
+}
+.g,.g:hover{
+	background: #d34836;
+	color: #fff;
+}
+button.btn{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+}
+.h-c-right{
+background:url(../image/landing.jpg) center center;
+background-size: cover;
+background-color: rgba(0,0,0,0.5);
+background-blend-mode:overlay;
+height: 620px;
+}
+
+.page-footer{
+	height: 56px;
+	box-shadow: 0 1px 4px #ccc;
+  background: #F4F4F4;
+  border-top: 1px solid #CDCDCD;
+}
+.footer-nav{
+	padding-top: 15px;
+}
+.footer-nav>ul{
+text-align: center;
+}
+.footer-nav>ul>li{
+list-style: none;
+display: inline-block;
+}
+.footer-nav>ul>li>a{
+display: inline-block;
+width: 100px;
+color: #000;
+}
+
+@media (max-width: 850px){
+	.sign-in-form>.form-inline>.form-group:not(:last-child){
+		display: none;
+	}
+	.signup-form>.form-inline>.form-group{
+		display: block;
+		width: 100%;
+	}
+}

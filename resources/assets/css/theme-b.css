@@ -1,0 +1,151 @@
+.form-inline>.form-group{
+	vertical-align: top;
+}
+
+.page-header{
+	margin: 0;
+  background: rgba(0,0,0,0.8);
+ /* box-shadow: 0 1px 4px #ccc;*/
+  border-bottom: none;
+}
+.logo{
+	display: inline-block;
+}
+.logo:hover{
+	text-decoration: none;
+}
+.logo>h1{
+  padding-left: 60px;
+  font-weight: 800;
+  color: orange;
+}
+.logo>h4{
+	padding-left: 64px;
+	  color: white;
+}
+.sign-in-form{
+ margin: 30px 40px 0 0;
+}
+.container{
+
+}
+.jumbotron{
+	padding: 0;
+	margin:0;
+	background-color: #fff;
+}
+.jumbotron>div{
+	height: 620px;
+}
+.signup-form{
+	display: block;
+	margin: 60px auto 0;
+	float: none;
+}
+
+.green-rect{
+	display: inline-block;
+	width: 500px;
+	height: 400px;
+	background-color:  rgba(123, 187, 85, 0.8);
+	margin: 125px calc(50% - 250px);
+}
+.black-rect{
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	background: url(../image/blackrect.png);
+	background-color:  rgba(0, 0, 0, 0.8);
+	margin: 75px 100px 0;
+
+}
+.row-c{
+	  position: absolute;
+  width: 500px;
+  font-size: x-large;
+  margin-top: 8px;
+  font-weight: 620;
+  color: white;
+}
+.row-c>div{
+	display: inline-block;
+	width: 50%;
+	padding-right: 60px;
+	text-align: right;
+	margin-top: calc(75px - 68px);
+}
+.row-c>div:first-child{
+	padding-left: 60px;
+	padding-right: 0;
+	text-align: left;
+}
+.col-50{
+	width: 50%;
+	vertical-align: top !important;
+}
+.col-50>input,.col-50>select{
+	width: 100% !important;
+}
+input{
+	margin-bottom: 15px;
+}
+.su-head{
+  font-weight: 700;
+  color: tomato;
+}
+.su-head>small{
+	font-size: 60%;
+	font-weight: bold;
+	/*color: rgb(129, 74, 48);*/
+}
+.social-plugin{
+	margin-top: 20px;
+	margin: 20px auto;
+	float: none;
+}
+.fb,.fb:hover{
+	background: #3b5998;
+	color: #fff;
+}
+.fb>.fa,.g>.fa{
+	font-size: 1.4em;
+	padding-left: 10px;
+}
+.g,.g:hover{
+	background: #d34836;
+	color: #fff;
+}
+button.btn{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+}
+.h-c-right{
+background:url(../image/landing.jpg) center center;
+background-size: cover;
+background-color: rgba(0,0,0,0.5);
+background-blend-mode:overlay;
+height: 620px;
+}
+.page-footer{
+	height: 56px;
+	box-shadow: 0 1px 4px #ccc;
+  background: #F4F4F4;
+  border-top: 1px solid #CDCDCD;
+}
+.footer-nav{
+	padding-top: 15px;
+}
+.footer-nav>ul{
+text-align: center;
+}
+.footer-nav>ul>li{
+list-style: none;
+display: inline-block;
+}
+.footer-nav>ul>li>a{
+display: inline-block;
+width: 100px;
+color: #000;
+}
